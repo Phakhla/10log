@@ -1,0 +1,188 @@
+[debug] [2021-03-19T09:19:33.537Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:19:33.539Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-19T09:19:33.539Z] CLI Version:   9.6.1
+[debug] [2021-03-19T09:19:33.539Z] Platform:      win32
+[debug] [2021-03-19T09:19:33.539Z] Node Version:  v14.15.4
+[debug] [2021-03-19T09:19:33.540Z] Time:          Fri Mar 19 2021 16:19:33 GMT+0700 (เวลาอินโดจีน)
+[debug] [2021-03-19T09:19:33.541Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:19:33.541Z] 
+[debug] [2021-03-19T09:19:33.546Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-19T09:19:33.547Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project_cs313\10log
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using projact-present. 
+[debug] [2021-03-19T09:19:39.203Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/projact-present [none]
+[debug] [2021-03-19T09:19:39.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/projact-present 403
+[debug] [2021-03-19T09:19:39.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/projact-present {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-03-19T09:19:39.735Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-03-19T09:19:39.952Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project projact-present. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-03-19T09:19:53.301Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:19:53.303Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-19T09:19:53.304Z] CLI Version:   9.6.1
+[debug] [2021-03-19T09:19:53.304Z] Platform:      win32
+[debug] [2021-03-19T09:19:53.304Z] Node Version:  v14.15.4
+[debug] [2021-03-19T09:19:53.305Z] Time:          Fri Mar 19 2021 16:19:53 GMT+0700 (เวลาอินโดจีน)
+[debug] [2021-03-19T09:19:53.305Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:19:53.305Z] 
+[debug] [2021-03-19T09:19:53.311Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-19T09:19:53.311Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project_cs313\10log
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using projact-present. 
+[debug] [2021-03-19T09:19:56.875Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/projact-present [none]
+[debug] [2021-03-19T09:19:57.329Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/projact-present 403
+[debug] [2021-03-19T09:19:57.329Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/projact-present {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-03-19T09:19:57.329Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-03-19T09:19:57.521Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project projact-present. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-03-19T09:20:53.499Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:20:53.501Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-19T09:20:53.501Z] CLI Version:   9.6.1
+[debug] [2021-03-19T09:20:53.501Z] Platform:      win32
+[debug] [2021-03-19T09:20:53.501Z] Node Version:  v14.15.4
+[debug] [2021-03-19T09:20:53.502Z] Time:          Fri Mar 19 2021 16:20:53 GMT+0700 (เวลาอินโดจีน)
+[debug] [2021-03-19T09:20:53.503Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:20:53.503Z] 
+[debug] [2021-03-19T09:20:53.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-19T09:20:53.509Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project_cs313\10log
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using projact-present. 
+[debug] [2021-03-19T09:20:56.825Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/projact-present [none]
+[debug] [2021-03-19T09:20:57.227Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/projact-present 403
+[debug] [2021-03-19T09:20:57.227Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/projact-present {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-03-19T09:20:57.228Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-03-19T09:20:57.587Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project projact-present. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-03-19T09:23:17.848Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:23:17.850Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-19T09:23:17.850Z] CLI Version:   9.6.1
+[debug] [2021-03-19T09:23:17.850Z] Platform:      win32
+[debug] [2021-03-19T09:23:17.850Z] Node Version:  v14.15.4
+[debug] [2021-03-19T09:23:17.851Z] Time:          Fri Mar 19 2021 16:23:17 GMT+0700 (เวลาอินโดจีน)
+[debug] [2021-03-19T09:23:17.852Z] ----------------------------------------------------------------------
+[debug] [2021-03-19T09:23:17.852Z] 
+[debug] [2021-03-19T09:23:17.858Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-19T09:23:17.858Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project_cs313\10log
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using projact-present. 
+[debug] [2021-03-19T09:23:21.150Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/projact-present [none]
+[debug] [2021-03-19T09:23:21.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/projact-present 403
+[debug] [2021-03-19T09:23:21.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/projact-present {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-03-19T09:23:21.620Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-03-19T09:23:21.837Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\ASUS FA506\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project projact-present. Please make sure the project exists and your account has permission to access it.
